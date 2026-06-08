@@ -239,17 +239,95 @@
 
 **📌 学习理念**：Agent 领域的核心不是套框架，而是理解 **harness**——工具协议、权限、状态、评测等底层工程能力。
 
-### 🗺️ Stage 0 — 理解 Agent 的本质
+## 📝 Agent Learning Records
 
-**目标**：区分 chatbot / workflow / agent / multi-agent，理解何时该用 agent。
+> 从「学习使用 Agent」到「理解 Agent Harness」的持续学习记录。
 
-| 任务 | 状态 |
-|------|------|
-| 读完《Anthropic: Building effective agents》 | ⬜ |
-| 读完《OpenAI: A practical guide to building agents》 | ⬜ |
-| 写一页笔记，回答「我的场景为什么需要 agent？」 | ⬜ |
+<div align="center">
 
-📎 **产出**：一篇短笔记 📝
+| 📚 学习记录           | 🔗 链接                           |
+| ----------------- | ------------------------------- |
+| Agent Learning 记录 | [点击查看](./Agent%20Learning记录.md) |
+
+</div>
+
+---
+
+### 🚀 Latest Learning
+
+#### Agent Foundations
+
+* ✅ Agent ≠ Chatbot
+* ✅ Agent ≠ Workflow
+* ✅ Agent 的适用场景分析
+* ✅ Tool Calling 基本原理
+* ✅ Context Engineering 基础认知
+* ✅ Harness 思维初步建立
+
+#### Current Focus
+
+* 🔄 Claude Code Harness
+* 🔄 OpenClaw Architecture
+* 🔄 MCP（Model Context Protocol）
+* 🔄 Skills Design
+* 🔄 Browser Agent
+* 🔄 Agent Evaluation
+
+---
+
+### 🎯 Learning Philosophy
+
+Agent 的核心并不是：
+
+* 套框架
+* 拼 Prompt
+* 调 API
+
+而是理解：
+
+* Tool Protocol（工具协议）
+* Context Engineering（上下文工程）
+* State Management（状态管理）
+* Permission Boundary（权限边界）
+* Trace & Observability（可观测性）
+* Evaluation（评测体系）
+
+最终目标：
+
+> 从「使用 Agent」成长为「构建 Agent Harness」。
+
+---
+
+### 📂 Agent Knowledge Map
+
+```text
+Agent
+├── Agent Learning记录.md
+│
+├── Foundations
+│   ├── Agent vs Workflow
+│   ├── Tool Calling
+│   ├── Context Engineering
+│   └── Agent Design
+│
+├── Harness
+│   ├── Claude Code
+│   ├── OpenClaw
+│   ├── LangGraph
+│   └── Multi-Agent
+│
+├── Protocols
+│   ├── MCP
+│   ├── A2A
+│   └── ACP
+│
+└── Evaluation
+    ├── Trace
+    ├── Observability
+    └── Safety
+```
+
+---
 
 ---
 
